@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 //const URL = "http://localhost:5000/api/clientes/";
-const URL = "https://backendvite.onrender.com/api/clientes"
+const URL = "https://backendvite.onrender.com/api/clientes/"
 
 const CompMostrarClientes = () => {
   const [clientes, setClientes] = useState([]);

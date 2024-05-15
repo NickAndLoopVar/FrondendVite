@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 //const URL = "http://localhost:5000/api/clientes/";
-const URL = "https://backendvite.onrender.com/api/clientes"
+const URL = "https://backendvite.onrender.com/api/clientes/"
 
 const CompCrearClientes = () => {
   const [nombres, setNombres] = useState("");
