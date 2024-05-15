@@ -2,8 +2,8 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-const URL = "http://localhost:5000/api/proyectos/";
-
+//const URL = "http://localhost:5000/api/proyectos/";
+const URL = "https://backendvite.onrender.com/api/proyectos"
 const CompMostrarProyectos = () => {
   const [proyectos, setProyectos] = useState([]);
   useEffect(() => {
